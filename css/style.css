@@ -80,7 +80,6 @@ td {
     min-width: 125px;
     padding: 10px;
     text-align: center;
-    vertical-align: middle;
     text-transform: uppercase;
     background-color: #7e0825;
 }
@@ -103,7 +102,19 @@ table {
 You can use Inspect Element or your editor to find selectors. */
 
 thead tr:first-child th:first-child {
-    background-color: blue;
+    border-radius: 50px 0px 0px 0px;
+}
+
+thead tr:first-child th:last-child {
+    border-radius: 0px 50px 0px 0px;
+}
+
+tbody tr:first-child th:first-child {
+    border-radius: 0px 0px 50px 0px;
+}
+
+tbody tr:first-child th:last-child {
+    border-radius: 0px 0px 0px 50px
 }
 
 
