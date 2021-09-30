@@ -109,12 +109,12 @@ thead tr:first-child th:last-child {
     border-radius: 0px 50px 0px 0px;
 }
 
-tbody tr:first-child th:first-child {
-    border-radius: 0px 0px 50px 0px;
+tbody tr:last-child th:first-child {
+    border-radius: 0px 0px 0px 50px;
 }
 
-tbody tr:first-child th:last-child {
-    border-radius: 0px 0px 0px 50px
+tbody tr:last-child td:last-child {
+    border-radius: 0px 0px 50px 0px
 }
 
 
